@@ -152,7 +152,7 @@ function getWeatherBg(main) {
     if(main == 'Clear') return 'images/aa72913855f9e02a949a5c392b48299e.jpg'
     if(main == 'Mist') return 'images/rain.gif'
     if(main == 'Haze') return 'images/haze.webp'
-    else return 'thunderstorm.svg'
+    else return 'images/thunderstorm.gif'
 }
 
 function changeWeatherBackground(weatherMain) {
